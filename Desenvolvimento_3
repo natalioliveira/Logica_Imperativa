@@ -1,0 +1,11 @@
+nome = escreva("Digite seu nome: ")
+endereco = escreva("Digite seu endereço: ")
+cidade = escreva("Digite sua cidade: ")
+cpf = escreva("Digite seu CPF: ")
+rg = escreva("Digite seu RG: ")
+
+nome = leia("Nome: ")
+endereco = leia("Endereço: ")
+cidade = leia("Cidade: ")
+cpf = leia("CPF: ")
+rg = leia("RG: ")
