@@ -1,0 +1,22 @@
+algoritmo AlocarClienteRestaurante
+var
+    numeroPessoas: inteiro
+    fumante, animaisEstimacao: caractere
+
+inicio
+    escreva("Bem-vindo ao restaurante!")
+    escreva("Quantas pessoas estão no seu grupo? ")
+    leia(numeroPessoas)
+    escreva("Você ou alguém no seu grupo é fumante? (sim/não) ")
+    leia(fumante)
+    escreva("Você ou alguém no seu grupo tem animais de estimação? (sim/não) ")
+    leia(animaisEstimacao)
+
+    se numeroPessoas >= 5 entao
+        escreva("Você será alocado no 1º andar.")
+    senao se fumante = "sim" ou animaisEstimacao = "sim" entao
+        escreva("Você será alocado na área externa.")
+    senao
+        escreva("Você será alocado no térreo.")
+    fimse
+fimalgoritmo
