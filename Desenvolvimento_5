@@ -1,0 +1,16 @@
+algoritmo GerarEtiquetas
+var
+    nomeEquipe, etiqueta: caractere
+    i: inteiro
+
+inicio
+    escreva("Digite o nome da equipe: ")
+    leia(nomeEquipe)
+
+    para i de 1 ate 5 faca
+        etiqueta <- nomeEquipe + " - " + i
+        escreva("Membro ", i, ": ", etiqueta)
+        escreval("")  // Pula uma linha para separar as etiquetas
+
+    fimpara
+fimalgoritmo
