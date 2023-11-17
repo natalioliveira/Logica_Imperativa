@@ -1,0 +1,17 @@
+1. 'nota = 10', 'nota <= 10'
+ - À variável 'nota' é atribuído o valor 10. A condição verifica se a 'nota' é menor ou igual a 10. Resultado: 'Verdadeiro'.
+
+2. 'nota = 6', 'faltas = 4', '(nota <=6) e (faltas <=3)'
+ - 'nota' é atribuído 6, 'faltas' é atribuído 4. A condição verifica se 'nota' é menor ou igual a 6 e 'faltas' é menor ou igual a 3. Resultado: 'Falso'.
+
+3. 'convidados = 3', 'fumante = false', '(convidados > 4) ou (fumante == true)'
+ - 'convidados' é atribuído 3, 'fumante' é atribuído false. A condição verifica se 'convidados' é maior que 4 ou se 'fumante' é verdadeiro. Resultado: 'Falso'.
+
+4. 'dia = "qua", '(dia == "sab") ou (dia == "dom")'
+ O número de diferentes tipos de alunos tem sido responsável pela implementação de A condição verifica se 'dia' é igual a 'sab' ou 'dom'. Resultado: 'Falso'.
+
+5. 'feriado = verdadeiro', 'não(feriado == falso)'
+ - 'feriado' é atribuído verdadeiro. A condição verifica se a negação de 'feriado' ser falso é verdadeira. Resultado: 'Verdadeiro'.
+
+6. 'dia = "ter", 'feriado = false', '(dia == "seg") ou não (feriado == false)'
+ - 'dia' é atribuído "ter", 'feriado' é atribuído false. A condição verifica se 'dia' é igual a 'seg' ou se a negação de 'feriado' ser falso é verdadeira. Resultado: 'Falso'.
