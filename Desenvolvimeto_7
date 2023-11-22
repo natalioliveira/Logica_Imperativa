@@ -1,0 +1,19 @@
+// Entradas do usuário
+ler quantidadeDeRodas
+ler pesoBruto
+ler quantidadeDePessoas
+
+// Verificar a categoria de habilitação
+se quantidadeDeRodas == 2 OU quantidadeDeRodas == 3 então
+    exibir "Categoria de habilitação necessária: A"
+senão se quantidadeDeRodas == 4 E quantidadeDePessoas <= 8 E pesoBruto <= 3500 então
+    exibir "Categoria de habilitação necessária: B"
+senão se quantidadeDeRodas >= 4 E pesoBruto > 3500 E pesoBruto <= 6000 então
+    exibir "Categoria de habilitação necessária: C"
+senão se quantidadeDeRodas >= 4 E quantidadeDePessoas > 8 então
+    exibir "Categoria de habilitação necessária: D"
+senão se quantidadeDeRodas >= 4 E pesoBruto > 6000 então
+    exibir "Categoria de habilitação necessária: E"
+senão
+    exibir "Não foi possível determinar a categoria de habilitação."
+
